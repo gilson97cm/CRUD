@@ -7,6 +7,12 @@
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".MainActivity">
+    <TextView
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="MIJAAA"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
 
     <LinearLayout
         android:layout_margin="10dp"
@@ -17,7 +23,7 @@
         <TextView
             android:id="@+id/tvnombre"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="NOMBRE" />
 
@@ -38,7 +44,7 @@
         <TextView
             android:id="@+id/tvapellido"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="APELLIDO" />
 
